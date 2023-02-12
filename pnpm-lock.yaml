@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@revolist/revogrid': ^3.4.0
+  '@revolist/svelte-datagrid': ^3.2.16
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.5.0
   '@typescript-eslint/eslint-plugin': ^5.45.0
@@ -15,6 +17,10 @@ specifiers:
   tslib: ^2.4.1
   typescript: ^4.9.3
   vite: ^4.0.0
+
+dependencies:
+  '@revolist/revogrid': 3.4.0
+  '@revolist/svelte-datagrid': 3.2.16
 
 devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.5.5
@@ -309,6 +315,25 @@ packages:
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
+
+  /@revolist/revogrid/3.4.0:
+    resolution: {integrity: sha512-62OjNIUUJgoiVsyB9SaetOUW9h1+5wcI7XVB6TOCC7lxmvObh3qBOhEwlOkkSx+9bNQHDEj9qeiQt78Ftiddbw==}
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+
+  /@revolist/svelte-datagrid/3.2.16:
+    resolution: {integrity: sha512-zSLpHxg/2hAo85UFCUFYK3+T7TVwZI1hSNdYguPiUt0m4zygdLL8YpPYv3x4pEOM5G6JzyciDtxlzB5u9iA0GQ==}
+    dependencies:
+      '@revolist/revogrid': 3.4.0
+      '@stencil/core': 2.17.4
+    dev: false
+
+  /@stencil/core/2.17.4:
+    resolution: {integrity: sha512-SGRlHpjV1RyFvzw6jFMVKpLNox9Eds3VvpbpD2SW9CuxdLonHDSFtQks5zmT4zs1Rse9I6kFc2mFK/dHNTalkg==}
+    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
+    hasBin: true
+    dev: false
 
   /@sveltejs/adapter-auto/2.0.0_@sveltejs+kit@1.5.5:
     resolution: {integrity: sha512-b+gkHFZgD771kgV3aO4avHFd7y1zhmMYy9i6xOK7m/rwmwaRO8gnF5zBc0Rgca80B2PMU1bKNxyBTHA14OzUAQ==}
@@ -1158,6 +1183,10 @@ packages:
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}

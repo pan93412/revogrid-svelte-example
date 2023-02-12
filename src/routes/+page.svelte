@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import Grid from "../component/Grid.svelte";
+</script>
+
+<style>
+    main {
+      font-family: sans-serif;
+      text-align: center;
+      height: calc(80vh);
+    }
+  </style>
+
+<main>
+	<Grid />
+</main>
